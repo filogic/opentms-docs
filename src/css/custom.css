@@ -1,0 +1,116 @@
+/**
+ * OpenTMS documentation theme
+ * Brand tokens taken from filogic.nl:
+ *   Primary  #bc0175  (magenta)
+ *   Accent   #fd9600  (orange)
+ *   Body text #0f0f0f
+ *   Headings: Rubik
+ *   Body:     Roboto
+ */
+
+:root {
+  /* FiLogic primary — magenta */
+  --ifm-color-primary: #bc0175;
+  --ifm-color-primary-dark: #a90069;
+  --ifm-color-primary-darker: #9f0063;
+  --ifm-color-primary-darkest: #830052;
+  --ifm-color-primary-light: #d61587;
+  --ifm-color-primary-lighter: #df2e94;
+  --ifm-color-primary-lightest: #ec5cad;
+
+  /* FiLogic accent — orange */
+  --filogic-accent: #fd9600;
+  --filogic-accent-dark: #d97e00;
+
+  /* Typography */
+  --ifm-font-family-base: 'Roboto', system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Helvetica, Arial, sans-serif;
+  --ifm-heading-font-family: 'Rubik', 'Roboto', system-ui, -apple-system,
+    BlinkMacSystemFont, sans-serif;
+  --ifm-heading-font-weight: 600;
+
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.08);
+}
+
+[data-theme='dark'] {
+  /* Lighter magenta for dark mode contrast */
+  --ifm-color-primary: #ec5cad;
+  --ifm-color-primary-dark: #e63d9d;
+  --ifm-color-primary-darker: #df2e94;
+  --ifm-color-primary-darkest: #bc0175;
+  --ifm-color-primary-light: #f178bf;
+  --ifm-color-primary-lighter: #f48aca;
+  --ifm-color-primary-lightest: #fab6de;
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.08);
+}
+
+/* Logo in navbar — the Filogic SVG wordmark is already vector */
+.navbar__logo img {
+  height: 2rem;
+  width: auto;
+}
+
+/* Reorder the right side of the navbar: language → night-view → login */
+.navbar__items--right > * {
+  order: 2; /* default middle slot (night-view toggle ends up here) */
+}
+.navbar__items--right .navbar__item.dropdown {
+  order: 1; /* language dropdown — leftmost of the right group */
+}
+.navbar__items--right .navbar-cta {
+  order: 3; /* login CTA — pinned to the very right */
+}
+
+/* Primary call-to-action: "Login to OpenTMS" navbar button */
+.navbar-cta {
+  background-color: var(--ifm-color-primary);
+  color: #ffffff !important;
+  padding: 0.4rem 0.9rem !important;
+  border-radius: 6px;
+  font-weight: 600;
+  margin-left: 0.5rem;
+  transition: background-color 0.15s ease, transform 0.15s ease;
+}
+.navbar-cta:hover {
+  background-color: var(--ifm-color-primary-dark);
+  color: #ffffff !important;
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+[data-theme='dark'] .navbar-cta {
+  color: #1a1a1a !important;
+}
+[data-theme='dark'] .navbar-cta:hover {
+  color: #1a1a1a !important;
+}
+
+/* Use the orange accent on focused/hover states for a touch of brand */
+.button--secondary:hover,
+.button--secondary:focus {
+  background-color: var(--filogic-accent);
+  border-color: var(--filogic-accent);
+  color: #fff;
+}
+
+/* Nicer figure captions for screenshots */
+figure {
+  margin: 1.5rem 0;
+}
+figure img {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+figcaption {
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-700);
+  text-align: center;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+/* Slightly tighter heading rhythm to match Rubik's character */
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -0.01em;
+}

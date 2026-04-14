@@ -1,0 +1,26 @@
+{
+  "title": {
+    "message": "OpenTMS",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "FiLogic OpenTMS",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Documentation": {
+    "message": "Documentatie",
+    "description": "Navbar item with label Documentation"
+  },
+  "item.label.What's new?": {
+    "message": "Wat is er nieuw?",
+    "description": "Navbar item with label What's new?"
+  },
+  "item.label.Change log": {
+    "message": "Changelog",
+    "description": "Navbar item with label Change log"
+  },
+  "item.label.Login to OpenTMS": {
+    "message": "Inloggen op OpenTMS",
+    "description": "Navbar item with label Login to OpenTMS"
+  }
+}
