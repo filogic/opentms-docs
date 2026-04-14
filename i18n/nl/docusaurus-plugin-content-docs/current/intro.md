@@ -22,7 +22,7 @@ Kies waar je mee wilt starten:
 
 Nieuw in OpenTMS? Begin met de basis: inloggen, de indeling van het scherm, schakelen tussen modules en je account personaliseren.
 
-[**Open de navigatiegids →**](./app-navigation/overview)
+[**Open de Aan de slag gids →**](./getting-started/overview)
 
   </div>
   <div className="col col--6" style={{marginBottom: '1.5rem'}}>
@@ -40,11 +40,11 @@ Het **Planboard** is waar het meeste werk gebeurt. Leer hoe je transportdossiers
 
 Snelkoppelingen voor de meest gestelde vragen:
 
-- **Voor het eerst inloggen** → [Inloggen](./app-navigation/signing-in)
-- **Een module openen die ik nog nooit gebruikt heb** → [Het app-menu](./app-navigation/app-shell#the-app-menu)
+- **Voor het eerst inloggen** → [Inloggen](./getting-started/logging-in)
+- **Een module openen die ik nog nooit gebruikt heb** → [Het app-menu](./getting-started/navigating/app-bar#het-app-menu)
 - **Een specifiek transportdossier vinden** → [Transportdossiers zoeken](./planboard/transport-files#searching-and-filtering)
 - **Een dossier toewijzen aan een voertuig** → [Voertuigtijdlijn](./planboard/vehicle-outline#assigning-a-transport-file-to-a-vehicle)
-- **Mijn wachtwoord of taal wijzigen** → [Je gebruikersmenu](./app-navigation/user-menu)
+- **Mijn wachtwoord of taal wijzigen** → [Je gebruikersmenu](./getting-started/navigating/user-menu)
 - **Zien wat er nieuw is in de laatste release** → [Changelog](pathname:///nl/changelog)
 
 ## Hoe lees je deze handleiding?

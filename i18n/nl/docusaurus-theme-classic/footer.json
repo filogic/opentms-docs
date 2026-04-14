@@ -7,17 +7,21 @@
     "message": "FiLogic",
     "description": "The title of the footer links column with title=FiLogic in the footer"
   },
-  "link.item.label.Getting started": {
-    "message": "Aan de slag",
-    "description": "The label of footer link with label=Getting started linking to /"
+  "link.item.label.Welcome": {
+    "message": "Welkom",
+    "description": "The label of footer link with label=Welcome linking to /"
   },
-  "link.item.label.App navigation": {
-    "message": "Navigatie in de app",
-    "description": "The label of footer link with label=App navigation linking to /app-navigation/overview"
+  "link.item.label.Getting Started": {
+    "message": "Aan de slag",
+    "description": "The label of footer link with label=Getting Started linking to /getting-started/overview"
   },
   "link.item.label.Planboard": {
     "message": "Planboard",
     "description": "The label of footer link with label=Planboard linking to /planboard/overview"
+  },
+  "link.item.label.Transport": {
+    "message": "Transport",
+    "description": "The label of footer link with label=Transport linking to /transport/overview"
   },
   "link.item.label.filogic.nl": {
     "message": "filogic.nl",

@@ -22,7 +22,7 @@ Pick the area you want to learn first:
 
 New to OpenTMS? Start with the basics: signing in, the layout of the screen, switching between modules and personalizing your account.
 
-[**Open the navigation guide →**](./app-navigation/overview)
+[**Open the Getting Started guide →**](./getting-started/overview)
 
   </div>
   <div className="col col--6" style={{marginBottom: '1.5rem'}}>
@@ -40,11 +40,11 @@ The **Planboard** is where most of the action happens. Learn how to view transpo
 
 Quick links for the most common questions:
 
-- **Sign in for the first time** → [Signing in](./app-navigation/signing-in)
-- **Open a module I haven't used before** → [The app menu](./app-navigation/app-shell#the-app-menu)
+- **Sign in for the first time** → [Logging in](./getting-started/logging-in)
+- **Open a module I haven't used before** → [The app menu](./getting-started/navigating/app-bar#the-app-menu)
 - **Find a specific transport file** → [Searching transport files](./planboard/transport-files#searching-and-filtering)
 - **Assign a file to a vehicle** → [Vehicle outline](./planboard/vehicle-outline#assigning-a-transport-file-to-a-vehicle)
-- **Change my password or language** → [Your user menu](./app-navigation/user-menu)
+- **Change my password or language** → [Your user menu](./getting-started/navigating/user-menu)
 - **See what's new in the latest release** → [Change log](pathname:///changelog)
 
 ## How to read this guide

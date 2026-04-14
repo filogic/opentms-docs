@@ -2,7 +2,7 @@
 id: user-menu
 title: Your user menu
 sidebar_label: User menu
-sidebar_position: 5
+sidebar_position: 3
 ---
 
 # Your user menu
@@ -11,7 +11,7 @@ The **user menu** is in the top-right corner of every screen. It shows your prof
 
 <figure>
 
-![User menu open — placeholder](./img/06-user-menu.png)
+![User menu open — placeholder](./img/04-user-menu.png)
 
 <figcaption>The user menu — your account, settings and sign-out are all here.</figcaption>
 </figure>
@@ -45,7 +45,7 @@ OpenTMS supports multiple interface languages. To change yours:
 3. Pick your preferred language and click **Save**.
 4. The interface refreshes immediately in the new language.
 
-You can also use the **language switcher** in the header bar for the same effect.
+You can also use the **language switcher** in the app bar for the same effect.
 
 ## Linked accounts
 

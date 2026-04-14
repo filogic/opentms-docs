@@ -140,9 +140,10 @@ const config: Config = {
         {
           title: 'Documentation',
           items: [
-            {label: 'Getting started', to: '/'},
-            {label: 'App navigation', to: '/app-navigation/overview'},
+            {label: 'Welcome', to: '/'},
+            {label: 'Getting Started', to: '/getting-started/overview'},
             {label: 'Planboard', to: '/planboard/overview'},
+            {label: 'Transport', to: '/transport/overview'},
           ],
         },
         {

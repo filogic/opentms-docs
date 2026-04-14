@@ -5,14 +5,22 @@ const sidebars: SidebarsConfig = {
     'intro',
     {
       type: 'category',
-      label: 'App navigation',
-      link: {type: 'doc', id: 'app-navigation/overview'},
+      label: 'Getting Started',
+      link: {type: 'doc', id: 'getting-started/overview'},
       items: [
-        'app-navigation/overview',
-        'app-navigation/signing-in',
-        'app-navigation/app-shell',
-        'app-navigation/main-menu',
-        'app-navigation/user-menu',
+        'getting-started/logging-in',
+        'getting-started/onboarding-wizard',
+        {
+          type: 'category',
+          label: 'Navigating OpenTMS',
+          link: {type: 'doc', id: 'getting-started/navigating/overview'},
+          items: [
+            'getting-started/navigating/app-bar',
+            'getting-started/navigating/user-menu',
+            'getting-started/navigating/notifications',
+            'getting-started/navigating/chat',
+          ],
+        },
       ],
     },
     {
@@ -20,11 +28,16 @@ const sidebars: SidebarsConfig = {
       label: 'Planboard',
       link: {type: 'doc', id: 'planboard/overview'},
       items: [
-        'planboard/overview',
         'planboard/transport-files',
         'planboard/vehicle-outline',
         'planboard/layout-and-tabs',
       ],
+    },
+    {
+      type: 'category',
+      label: 'Transport',
+      link: {type: 'doc', id: 'transport/overview'},
+      items: [],
     },
   ],
 };

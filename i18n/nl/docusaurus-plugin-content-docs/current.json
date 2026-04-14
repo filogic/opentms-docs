@@ -3,12 +3,20 @@
     "message": "Huidig",
     "description": "The label for version current"
   },
-  "sidebar.docsSidebar.category.App navigation": {
-    "message": "Navigatie in de app",
-    "description": "The label for category 'App navigation' in sidebar 'docsSidebar'"
+  "sidebar.docsSidebar.category.Getting Started": {
+    "message": "Aan de slag",
+    "description": "The label for category 'Getting Started' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Navigating OpenTMS": {
+    "message": "Navigeren door OpenTMS",
+    "description": "The label for category 'Navigating OpenTMS' in sidebar 'docsSidebar'"
   },
   "sidebar.docsSidebar.category.Planboard": {
     "message": "Planboard",
     "description": "The label for category 'Planboard' in sidebar 'docsSidebar'"
+  },
+  "sidebar.docsSidebar.category.Transport": {
+    "message": "Transport",
+    "description": "The label for category 'Transport' in sidebar 'docsSidebar'"
   }
 }
