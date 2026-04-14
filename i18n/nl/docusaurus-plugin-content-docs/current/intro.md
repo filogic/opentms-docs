@@ -5,51 +5,72 @@ sidebar_position: 1
 slug: /
 ---
 
-# Welkom bij OpenTMS
+# Welkom 👋
 
-OpenTMS is een Transport Management Systeem ontwikkeld door [FiLogic](https://filogic.nl) voor transport- en logistieke bedrijven. Het brengt planning, dispatch, documentatie, tracking en facturatie samen in één omgeving.
+Je hebt de **OpenTMS handleiding** gevonden — dé plek om alles uit OpenTMS te halen, het Transport Management Systeem van [FiLogic](https://filogic.nl).
 
-Deze documentatie is de gebruikershandleiding. Hij is geschreven voor **planners, dispatchers, chauffeurs en kantoormedewerkers** die OpenTMS dagelijks gebruiken — niet voor beheerders of ontwikkelaars.
+Of je nu de hele dag bezig bent met **ritten plannen**, **chauffeurs aansturen**, **papierwerk afhandelen** of **klanten op de hoogte houden** — deze handleiding is voor jou geschreven. Praktisch, stap voor stap, en in gewone-mensen-taal. Geen jargon, geen ontwikkelaarstaal.
 
-:::warning Vertaling in uitvoering
-De Nederlandse versie van deze documentatie is nog niet compleet. Sommige pagina's tonen voorlopig de Engelstalige versie. We werken aan de vertaling — bedankt voor je geduld.
-:::
+## Hier beginnen
 
-## Wat je hier vindt
+Kies waar je mee wilt starten:
 
-<div className="row" style={{marginTop: '1rem'}}>
-  <div className="col col--6" style={{marginBottom: '1rem'}}>
+<div className="row" style={{marginTop: '1.5rem'}}>
+  <div className="col col--6" style={{marginBottom: '1.5rem'}}>
 
-### 🧭 Navigatie in de app
+### 🧭 Vind je weg
 
-Hoe je inlogt, je weg vindt in de OpenTMS-interface, schakelt tussen modules en je account beheert.
+Nieuw in OpenTMS? Begin met de basis: inloggen, de indeling van het scherm, schakelen tussen modules en je account personaliseren.
 
-[**Open de handleiding →**](./app-navigation/overview)
+[**Open de navigatiegids →**](./app-navigation/overview)
 
   </div>
-  <div className="col col--6" style={{marginBottom: '1rem'}}>
+  <div className="col col--6" style={{marginBottom: '1.5rem'}}>
 
-### 🗓️ Planboard
+### 🗓️ Plannen en dispatchen
 
-Hoe je het Planboard gebruikt: transportdossiers bekijken, toewijzen aan voertuigen, werken met de voertuigtijdlijn en je dagelijkse planning beheren.
+Het **Planboard** is waar het meeste werk gebeurt. Leer hoe je transportdossiers bekijkt, ze toewijst aan voertuigen op een tijdlijn en je dagelijkse planning als een pro draait.
 
-[**Open de handleiding →**](./planboard/overview)
+[**Open de Planboard-gids →**](./planboard/overview)
 
   </div>
 </div>
 
+## Ik wil even snel…
+
+Snelkoppelingen voor de meest gestelde vragen:
+
+- **Voor het eerst inloggen** → [Inloggen](./app-navigation/signing-in)
+- **Een module openen die ik nog nooit gebruikt heb** → [Het app-menu](./app-navigation/app-shell#the-app-menu)
+- **Een specifiek transportdossier vinden** → [Transportdossiers zoeken](./planboard/transport-files#searching-and-filtering)
+- **Een dossier toewijzen aan een voertuig** → [Voertuigtijdlijn](./planboard/vehicle-outline#assigning-a-transport-file-to-a-vehicle)
+- **Mijn wachtwoord of taal wijzigen** → [Je gebruikersmenu](./app-navigation/user-menu)
+- **Zien wat er nieuw is in de laatste release** → [Changelog](pathname:///nl/changelog)
+
 ## Hoe lees je deze handleiding?
 
-Elk hoofdstuk begint met een kort **overzicht** van waar het scherm voor dient, gevolgd door **stapsgewijze taken** ("Hoe doe ik...?") en eindigt met een **referentie** van knoppen en velden.
+Elk hoofdstuk is op dezelfde manier opgebouwd:
 
-- Knoppen en menu-items staan **vetgedrukt**.
-- Schermen en secties staan _cursief_.
-- Toetscombinaties zien er zo uit: <kbd>Ctrl</kbd> + <kbd>S</kbd>.
+1. **Een overzicht** — waar het scherm voor dient, in één alinea.
+2. **Stap-voor-stap instructies** — "Hoe doe ik…?" doorloopjes die je direct kunt volgen.
+3. **Een referentie** — elke knop, filter en kolom uitgelegd.
+
+Onderweg kom je tegen:
+
+- **Vetgedrukt** voor knoppen, menu-items en labels waar je op klikt.
+- _Cursief_ voor de namen van schermen en secties.
+- <kbd>Ctrl</kbd> + <kbd>S</kbd> voor toetscombinaties.
+- :::tip blokken voor handige tips en sneltoetsen.
+- :::warning blokken voor dingen waar je op moet letten.
 
 ## Hulp nodig?
 
-Als iets in deze handleiding onduidelijk, onvolledig of verouderd is, laat het ons weten via [info@filogic.nl](mailto:info@filogic.nl).
+Wij zijn echte mensen, en we horen graag van je. Als iets in deze handleiding **onduidelijk, onvolledig of verouderd is**, laat het ons weten:
 
-:::info Versie
-Deze documentatie beschrijft de huidige productieversie van OpenTMS. Sommige schermen kunnen er iets anders uitzien afhankelijk van welke modules je organisatie heeft ingeschakeld en de rechten die aan je gebruikersaccount zijn toegekend.
+📧 [info@filogic.nl](mailto:info@filogic.nl)
+
+We lezen elk bericht — jouw feedback is hoe deze handleiding beter wordt.
+
+:::info Tot slot
+OpenTMS is in hoge mate aanpasbaar, dus de schermen die jij ziet kunnen er iets anders uitzien afhankelijk van welke modules jouw organisatie heeft ingeschakeld en welke rechten aan jouw account zijn toegekend. Mis je een knop of menu-item dat we beschrijven? Dat is bijna altijd een rechteninstelling — je beheerder kan je daarbij helpen.
 :::
